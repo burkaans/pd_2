@@ -59,7 +59,7 @@ namespace pd_2
 
             Class2 sas = new Class2();
             double iznakums5 = sas.Saskaitisana();
-            Console.WriteLine(iznakums5);
+            Console.WriteLine("rezultats ir " + iznakums5);
             Console.ReadLine();
         }
         static double Aprekins1(double a, double b)
