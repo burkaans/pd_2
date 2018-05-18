@@ -40,6 +40,13 @@ namespace pd_2
                         break;
                 }
             }
+            Class1 reizinat = new Class1();
+            double iznakums = reizinat.Reizinasana(5, 5);
+            Console.WriteLine(iznakums);
+            Class1 dalit = new Class1();
+            double iznakums2 = dalit.Dalisana(25, 5);
+            Console.WriteLine(iznakums2);
+            Console.ReadLine();
         }
         static double Aprekins1(double a, double b)
         {

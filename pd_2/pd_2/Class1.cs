@@ -8,7 +8,15 @@ namespace pd_2
 {
     class Class1
     {
-
-
+        public double Reizinasana(double a, double b)
+        {
+            double result = a * b;
+            return result;
+        }
+        public double Dalisana(double a, double b)
+        {
+            double result = a / b;
+            return result;
+        }
     }
 }
