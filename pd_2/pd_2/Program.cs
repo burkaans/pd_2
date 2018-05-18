@@ -55,7 +55,7 @@ namespace pd_2
             Console.WriteLine("Ievadiet 3 trijstura malu garumus, lai aprekinatu perimetru:");
             Class2 per = new Class2();
             double iznakums4 = per.Perimetrs();
-            Console.WriteLine(iznakums4);
+            Console.WriteLine("trijstura perimetrs ir " + iznakums4);
             Console.ReadLine();
         }
         static double Aprekins1(double a, double b)
