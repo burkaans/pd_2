@@ -10,8 +10,19 @@ namespace pd_2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, Master!");
+            Console.WriteLine(Aprekins1(7, 3));
+            Console.WriteLine(Aprekins2(10, 3));
             Console.ReadLine();
+        }
+        static double Aprekins1(double a, double b)
+        {
+            double result = a + b;
+            return result;
+        }
+        static double Aprekins2(double a, double b)
+        {
+            double result = a - b;
+            return result;
         }
     }
 }
