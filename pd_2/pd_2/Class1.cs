@@ -18,5 +18,13 @@ namespace pd_2
             double result = a / b;
             return result;
         }
+        public double Kapinasana()
+        {
+            double a;
+            string input = Console.ReadLine();
+            a = Convert.ToDouble(input);
+            double b = a * a;
+            return b;
+        }
     }
 }

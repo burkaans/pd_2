@@ -46,6 +46,11 @@ namespace pd_2
             Class1 dalit = new Class1();
             double iznakums2 = dalit.Dalisana(25, 5);
             Console.WriteLine(iznakums2);
+
+            Console.WriteLine("Ievadiet skaitli, ko velaties kapinat!");
+            Class1 kapinat = new Class1();
+            double iznakums3 = kapinat.Kapinasana();
+            Console.WriteLine(iznakums3);
             Console.ReadLine();
         }
         static double Aprekins1(double a, double b)
