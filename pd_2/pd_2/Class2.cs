@@ -32,5 +32,33 @@ namespace pd_2
                 return d;
             
         }
+        public double Saskaitisana()
+        {
+            Console.WriteLine("Ievadiet pirmo skaitli");
+            double skaitlis1, skaitlis2;
+            string input1 = Console.ReadLine();
+            skaitlis1 = Convert.ToDouble(input1);
+            Console.WriteLine("ievadiet +/-");
+            string input2 = Console.ReadLine();
+            Console.WriteLine("Ievadiet otro skaitli");
+            string input3 = Console.ReadLine();
+            skaitlis2 = Convert.ToDouble(input3);
+            double rezultats1, rezultats2;
+            rezultats1 = skaitlis1 + skaitlis2;
+            rezultats2 = skaitlis1 - skaitlis2;
+            return rezultats1;
+            return rezultats2;
+            if (input2 == "+")
+            {
+              Console.WriteLine(rezultats1);
+            }
+                if (input2 == "-")
+            {
+              Console.WriteLine(rezultats2);
+            }
+
+           
+
+        }
     }
 }

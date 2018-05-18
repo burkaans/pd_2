@@ -56,6 +56,10 @@ namespace pd_2
             Class2 per = new Class2();
             double iznakums4 = per.Perimetrs();
             Console.WriteLine("trijstura perimetrs ir " + iznakums4);
+
+            Class2 sas = new Class2();
+            double iznakums5 = sas.Saskaitisana();
+            Console.WriteLine(iznakums5);
             Console.ReadLine();
         }
         static double Aprekins1(double a, double b)
