@@ -51,6 +51,11 @@ namespace pd_2
             Class1 kapinat = new Class1();
             double iznakums3 = kapinat.Kapinasana();
             Console.WriteLine(iznakums3);
+
+            Console.WriteLine("Ievadiet 3 trijstura malu garumus, lai aprekinatu perimetru:");
+            Class2 per = new Class2();
+            double iznakums4 = per.Perimetrs();
+            Console.WriteLine(iznakums4);
             Console.ReadLine();
         }
         static double Aprekins1(double a, double b)
